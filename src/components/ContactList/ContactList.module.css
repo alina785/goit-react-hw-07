@@ -1,0 +1,61 @@
+.list {
+  width: 360px;
+  padding: 20px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  gap: 15px;
+  border-radius: 10px;
+  background-color: rgb(156, 114, 121);
+  box-shadow: 0 1px 1px rgba(45, 20, 24, 0.22),
+    0 2px 2px rgba(45, 20, 24, 0.34),
+    0 4px 4px rgba(45, 20, 24, 0.28),
+    0 8px 8px rgba(45, 20, 24, 0.22);
+}
+  
+.contactCard {
+  background-color: rgb(69, 31, 37);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  padding: 10px;
+  width: 320px;
+  transition: transform 0.5s ease, box-shadow 0.3s ease;
+}
+  
+.contactCard:hover {
+  transform: scale(1.03);
+}
+  
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+  
+.name {
+  font-weight: bold;
+}
+  
+.number {
+  font-weight: lighter;
+}
+    
+  
+.btn {
+  background-color: transparent;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 4px 8px;
+  box-shadow: 0 1px 1px rgba(45, 20, 24, 0.22),0 2px 2px rgba(45, 20, 24, 0.34),0 4px 4px rgba(45, 20, 24, 0.28),0 8px 8px rgba(45, 20, 24, 0.22);
+  transition: color 0.5s ease;
+}
+  
+.btn:hover {
+  color: red;
+}

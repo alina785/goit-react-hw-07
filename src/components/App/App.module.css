@@ -1,0 +1,21 @@
+.wrapp {
+  padding: 20px;
+}
+    
+.header {
+  width: 360px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  gap: 10px;
+  background-color: rgb(156, 114, 121);
+}
+    
+.title {
+  margin-bottom: 10px;
+}
